@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(135deg, #0d0d0d, #1a1a1a);
+  color: #fff;
+  text-align: center;
+}
+
+h1 {
+  margin-top: 50px;
+  font-size: 4rem;
+  color: #ff4d4d;
+  text-shadow: 2px 2px #000;
+}
+
+.download-btn {
+  display: inline-block;
+  margin: 30px auto;
+  padding: 20px 50px;
+  font-size: 1.5rem;
+  background: linear-gradient(90deg, #ff4d4d, #ff944d);
+  color: #fff;
+  text-decoration: none;
+  border-radius: 30px;
+  transition: transform 0.2s ease-in-out;
+}
+.download-btn:hover {
+  transform: scale(1.1);
+}
+
+.mascot img {
+  margin-top: 50px;
+  width: 300px;
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-20px); }
+}
